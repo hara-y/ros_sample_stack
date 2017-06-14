@@ -1,6 +1,17 @@
 # Prerequisites
 *.d
 
+# Backup files
+*~
+*.swp
+*.autosave
+*.backup
+
+# Build directories
+build/
+bin/
+lib/
+
 # Compiled Object files
 *.slo
 *.lo
@@ -30,3 +41,6 @@
 *.exe
 *.out
 *.app
+
+# Qt Creator CMake files
+CMakeLists.txt.user
